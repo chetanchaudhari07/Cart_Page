@@ -28,7 +28,7 @@ This project is a Cart Page for an e-commerce website, allowing users to view it
 
 Clone the repository:
 
-git clone https://github.com/yourusername/cart-page.git
+git clone https://github.com/chetanchaudhari07/Cart_Page
 
 
 
@@ -36,9 +36,5 @@ git clone https://github.com/yourusername/cart-page.git
 
 The cart page fetches data from a backend API. Ensure the API endpoint is correctly set in the JavaScript file:
 
-fetch("https://api.example.com/cart")
-  .then(response => response.json())
-  .then(data => displayCartItems(data));
-
-Replace https://api.example.com/cart with your actual API endpoint.
-
+fetch("https://cdn.shopify.com/s/files/1/0883/2188/4479/files/apiCartData.json?v=1728384889")
+ 
