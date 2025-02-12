@@ -5,16 +5,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/f88b623e7a.js" crossorigin="anonymous"></script>
     <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
-    <title>Coding Assesment L2 boilerplate</title>
+    <title>Cart Page</title>
 
 </head>
 
 <body>
-    <!-- Your code goes here -->
-    <div class="container">
-        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
+
+    <header>
+        <div class="logo">
+            <img src="image/download1.jpg"
+                alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="icon">
+            <a href="#" class="icon-link"><i class="fas fa-search"></i></a>
+            <a href="#" class="icon-link"><i class="fas fa-heart"></i></a>
+            <a href="#" class="icon-link"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </header>
+
+    <div id="box1">
+         <img src="image/download2.jpg" alt="logo">
+        <h1>Cart</h1>
+        <span><a href="/">Home</a> > <a href="index.html">Cart</a></span>
     </div>
+
+    <div class="cart-container">
+        <div class="cart-product">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price (INR)</th>
+                        <th>Quantity</th>
+                        <th>Subtotal (INR)</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="cart-total">
+            <h1>Cart Total</h1>
+            <p>Subtotal: <span id="subtotal">0</span> INR</p>
+            <h2>Total: <span id="total">0</span> INR</h2>
+            <button id="checkout-btn">Check Out</button>
+
+        </div>
+    </div>
+
+    <footer>
+
+        <div>
+            <div class="icon logo1"><i class="fa-regular fa-trophy"></i></div>
+            <div class="link 1"><a href="">High Quality</a>
+                <p>Crafted from Top material</p>
+            </div>
+
+        </div>
+
+        <div>
+            <div class=" icon logo2"><i class="fa-regular fa-trophy"></i></div>
+
+            <div class="link 2"><a href="">Waranty Protection Over Two Year</a>
+                <p>Over 2 Year</p>
+            </div>
+
+        </div>
+
+        <div>
+            <div class="icon logo3"><i class="fa-regular fa-cart-flatbed-suitcase"></i></div>
+            <div class=" link 3"><a href="">Free Sheeping</a>
+                <p>order over 1500 INR</p>
+            </div>
+
+        </div>
+
+        <div>
+            <div class="icon logo4"><i class="fa-regular fa-phone-volume"></i></div>
+            <div class="link 4"><a href="">24/7 support</a>
+                <p>Dedicated Support</p>
+            </div>
+
+        </div>
+
+
+
+    </footer>
+
     <!-- Happy coding 😊 -->
     <script src="./script.js"></script>
 </body>
